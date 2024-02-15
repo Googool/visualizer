@@ -1,6 +1,8 @@
 # Visualizer
 Audio Spectrum Visualizer
 
+### Documentation
+
 ### Contributing
 
 ### License
