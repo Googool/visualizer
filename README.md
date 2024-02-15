@@ -1,2 +1,2 @@
-# visualizer
+# Visualizer
 Audio Spectrum Visualizer
