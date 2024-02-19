@@ -3,13 +3,13 @@
     (property "Reference" "DISP1" (at -3.81 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (at -5.08 1.27 0)
+    (property "Value" "" (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at -5.08 1.27 0)
+    (property "Footprint" "" (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -5.08 1.27 0)
+    (property "Datasheet" "" (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (at 0 0 0)
@@ -27,14 +27,14 @@
       (polyline
         (pts
           (xy -20.32 15.24)
-          (xy 5.08 15.24)
+          (xy 7.62 15.24)
         )
         (stroke (width 0.254) (type solid))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 5.08 -10.16)
+          (xy 7.62 -10.16)
           (xy -20.32 -10.16)
         )
         (stroke (width 0.254) (type solid))
@@ -42,8 +42,8 @@
       )
       (polyline
         (pts
-          (xy 5.08 15.24)
-          (xy 5.08 -10.16)
+          (xy 7.62 15.24)
+          (xy 7.62 -10.16)
         )
         (stroke (width 0.254) (type solid))
         (fill (type none))
@@ -106,10 +106,6 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (arc (start 0 -7.62) (mid 1.7961 -6.8761) (end 2.54 -5.08)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy -12.7 10.16)
@@ -121,14 +117,14 @@
       (polyline
         (pts
           (xy -10.16 12.7)
-          (xy 0 12.7)
+          (xy 2.54 12.7)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 -7.62)
+          (xy 2.54 -7.62)
           (xy -10.16 -7.62)
         )
         (stroke (width 0) (type default))
@@ -136,20 +132,24 @@
       )
       (polyline
         (pts
-          (xy 2.54 10.16)
-          (xy 2.54 -5.08)
+          (xy 5.08 10.16)
+          (xy 5.08 -5.08)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (arc (start 2.54 10.16) (mid 1.7961 11.9561) (end 0 12.7)
+      (arc (start 2.54 -7.62) (mid 4.3361 -6.8761) (end 5.08 -5.08)
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "172X320" (at -5.08 5.08 0)
+      (arc (start 5.08 10.16) (mid 4.3361 11.9561) (end 2.54 12.7)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (text "172X320" (at -3.81 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (text "ST7789" (at -5.08 1.27 0)
+      (text "ST7789" (at -3.81 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
     )
