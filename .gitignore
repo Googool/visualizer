@@ -1,3 +1,4 @@
 # Module
 module/visualizer-module-backups/*
+module/*.kicad_sch.lck
 module/fp-info-cache
